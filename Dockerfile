@@ -11,3 +11,5 @@ RUN apt-get update -y && \
     unzip=6.0-26ubuntu3.2 \
     wget=1.21.2-2ubuntu1 &&\
     rm -rf /var/lib/apt/lists/*
+
+USER runner
