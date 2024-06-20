@@ -8,6 +8,7 @@ RUN apt-get update -y && \
     jq=1.6-2.1ubuntu3 \
     git=1:2.45.2-0ppa1~ubuntu22.04.1 \
     gpg=2.2.27-3ubuntu2.1 \
+    patch=2.7.6-7build2 \
     unzip=6.0-26ubuntu3.2 \
     wget=1.21.2-2ubuntu1 &&\
     rm -rf /var/lib/apt/lists/*
