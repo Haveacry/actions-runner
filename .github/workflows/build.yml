@@ -40,7 +40,7 @@ jobs:
          tags: ${{ steps.meta.outputs.tags }}
          labels: ${{ steps.meta.outputs.labels }}
          build-args: |
-           HTTP_PROXY=${{ env.HTTP_PROXY }}
-           HTTPS_PROXY=${{ env.HTTPS_PROXY }}
-           NO_PROXY=${{ env.NO_PROXY }}
+           HTTP_PROXY=${{ env.http_proxy }}
+           HTTPS_PROXY=${{ env.https_proxy }}
+           NO_PROXY=${{ env.no_proxy }}
 
