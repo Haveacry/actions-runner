@@ -39,8 +39,8 @@ jobs:
          push: true
          tags: ${{ steps.meta.outputs.tags }}
          labels: ${{ steps.meta.outputs.labels }}
-         build-args: |
-           HTTP_PROXY=${{ env.http_proxy }}
-           HTTPS_PROXY=${{ env.https_proxy }}
-           NO_PROXY=${{ env.no_proxy }}
+#         build-args: |
+#           HTTP_PROXY=${{ env.http_proxy }}
+#           HTTPS_PROXY=${{ env.https_proxy }}
+#           NO_PROXY=${{ env.no_proxy }}
 
