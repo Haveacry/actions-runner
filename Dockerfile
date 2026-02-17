@@ -1,9 +1,9 @@
-FROM ghcr.io/actions/actions-runner:2.328.0
+FROM ghcr.io/actions/actions-runner:2.331.0
 
 USER root
 
-RUN apt-get update -y && \
-    apt-get install --no-install-recommends -y \
+RUN apt-get install --no-install-recommends -y \
+    ansible-core \
     curl \
     jq \
     git \
